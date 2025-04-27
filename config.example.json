@@ -1,0 +1,73 @@
+{
+	"api_id": "YOUR_TELEGRAM_API_ID",
+	"api_hash": "YOUR_TELEGRAM_API_HASH",
+	"bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+	"sources": {
+		"telegram": {
+			"enabled": true,
+			"data_folder": "telegram",
+			"messages_folder": "telegram/messages",
+			"media_folder": "telegram/media",
+			"channels": {
+				"CHANNEL_ID_EXAMPLE": {
+					"include_filters": [],
+					"exclude_filters": ["#резюме"],
+					"active": true
+				},
+				"CHANNEL_ID_EXAMPLE_2": {
+					"include_filters": [
+						"видео",
+						"видеомонтаж",
+						"рилс",
+						"монтаж",
+						"монтажёр",
+						"монтажер",
+						"монтаж видео",
+						"сторис",
+						"сторисы",
+						"рилсы",
+						"reels",
+						"youtube"
+					],
+					"exclude_filters": ["резюме", "ищу", "помогу", "создаю", "сделаю"],
+					"active": true
+				}
+			}
+		},
+		"vk": {
+			"enabled": true,
+			"service_token": "YOUR_VK_SERVICE_TOKEN",
+			"app_id": "YOUR_VK_APP_ID",
+			"data_folder": "vk",
+			"messages_folder": "vk/messages",
+			"media_folder": "vk/media",
+			"groups": {
+				"-group_name_example": {
+					"include_filters": [
+						"видео",
+						"видеомонтаж",
+						"рилс",
+						"монтаж",
+						"монтажёр",
+						"монтажер",
+						"монтаж видео",
+						"сторис",
+						"сторисы",
+						"рилсы",
+						"reels",
+						"youtube"
+					],
+					"exclude_filters": [],
+					"active": true
+				}
+			}
+		},
+		"hh": {
+			"enabled": true,
+			"data_folder": "hh",
+			"messages_folder": "hh/messages",
+			"include_filters": [],
+			"exclude_filters": []
+		}
+	}
+} 

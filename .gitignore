@@ -1,0 +1,51 @@
+# Config with real credentials
+config.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Session files
+*_session*
+
+# Data folders
+telegram/
+vk/
+hh/
+
+# Media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*~
+
+# System files
+.DS_Store
+Thumbs.db 
